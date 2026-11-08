@@ -15,7 +15,7 @@ local UserInputService = game:GetService("UserInputService")
 -- \\ Variables // --
 
 -- Diperbaiki ke CDN jsDelivr untuk ROOT folder assets
-local ROOT = "https://cdn.jsdelivr.net/gh/RegularVynixu/DOORS-Crucifix-Everything@main"
+local ROOT = "https://github.com/RegularVynixu/DOORS-Crucifix-Everything/tree/main"
 
 local LocalPlayer = Players.LocalPlayer
 local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
