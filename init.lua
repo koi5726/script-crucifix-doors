@@ -2,7 +2,8 @@ if getgenv().Vynixu_Crucifix_Everything then
     return getgenv().Vynixu_Crucifix_Everything
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+-- Diperbaiki ke CDN jsDelivr agar tidak ter-block
+loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/RegularVynixu/Utilities@main/Functions.lua"))()
 
 -- \\ Services // --
 
@@ -13,7 +14,8 @@ local UserInputService = game:GetService("UserInputService")
 
 -- \\ Variables // --
 
-local ROOT = "https://github.com/RegularVynixu/DOORS-Crucifix-Everything"
+-- Diperbaiki ke CDN jsDelivr untuk ROOT folder assets
+local ROOT = "https://cdn.jsdelivr.net/gh/RegularVynixu/DOORS-Crucifix-Everything@main"
 
 local LocalPlayer = Players.LocalPlayer
 local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
