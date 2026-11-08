@@ -2,7 +2,7 @@ if getgenv().Vynixu_Crucifix_Everything then
     return getgenv().Vynixu_Crucifix_Everything
 end
 
--- Diperbaiki ke CDN jsDelivr agar tidak ter-block
+-- Diperbaiki ke CDN jsDelivr agar tidak ter-block pp
 loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/RegularVynixu/Utilities@main/Functions.lua"))()
 
 -- \\ Services // --
