@@ -15,7 +15,7 @@ local UserInputService = game:GetService("UserInputService")
 -- \\ Variables // --
 
 -- Diperbaiki ke CDN jsDelivr untuk ROOT folder assets
-local ROOT = "https://github.com/RegularVynixu/DOORS-Crucifix-Everything/tree/main"
+local ROOT = "https://github.com/RegularVynixu/DOORS-Crucifix-Everything"
 
 local LocalPlayer = Players.LocalPlayer
 local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
@@ -23,8 +23,8 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local Mouse = LocalPlayer:GetMouse()
 
 local Assets = {
-    Repentance = LoadCustomInstance(ROOT.."/Assets/Repentance.rbxm"),
-    Crucifix = LoadCustomInstance(ROOT.."/Assets/Crucifix.rbxm")
+    Repentance = LoadCustomInstance(ROOT.."/tree/main/Assets/Repentance.rbxm"),
+    Crucifix = LoadCustomInstance(ROOT.."/tree/main/Assets/Crucifix.rbxm")
 }
 local Module = {
     Connections = {},
